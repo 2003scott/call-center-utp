@@ -1,0 +1,8 @@
+{
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error" : {
+    "logGroupName" : "/aws/rds/instance/mydb/error",
+    "createdTime" : 1782193856278,
+    "retentionInDays" : null,
+    "tags" : { }
+  }
+}

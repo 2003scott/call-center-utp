@@ -1,0 +1,25 @@
+services:
+  # 1. Tu código en TypeScript (El Cerebro)
+  orquestador:
+    build: .
+    ports:
+      - "${ASTERIK_HOST_PORT:-3001}:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+    depends_on:
+      - asterisk_pbx
+
+  # 2. El servidor local de telefonía (El Motor)
+  asterisk_pbx:
+    image: andrius/asterisk:latest 
+    ports:
+      - "8088:8088" # Exponemos el puerto de la API
+      - "5060:5060/udp" # Puerto para llamadas SIP
+    volumes:
+      - ./asterisk_config/http.conf:/etc/asterisk/http.conf
+      - ./asterisk_config/ari.conf:/etc/asterisk/ari.conf
+      - ./asterisk_config/pjsip.conf:/etc/asterisk/pjsip.conf # <-- Nueva línea

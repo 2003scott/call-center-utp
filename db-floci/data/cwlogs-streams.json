@@ -1,0 +1,22 @@
+{
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2" : {
+    "logGroupName" : "/aws/rds/instance/mydb/error",
+    "logStreamName" : "2026/06/28/c443ecc2",
+    "createdTime" : 1782688687416,
+    "firstEventTimestamp" : 1782688687519,
+    "lastEventTimestamp" : 1782688692493,
+    "lastIngestionTime" : 1782688692493,
+    "uploadSequenceToken" : "0e764bb1-7529-4bf9-88f7-d2391252e3ae",
+    "storedBytes" : 2226
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b" : {
+    "logGroupName" : "/aws/rds/instance/mydb/error",
+    "logStreamName" : "2026/06/23/8d2f9a6b",
+    "createdTime" : 1782193856299,
+    "firstEventTimestamp" : 1782193856310,
+    "lastEventTimestamp" : 1782193993023,
+    "lastIngestionTime" : 1782193993023,
+    "uploadSequenceToken" : "81a8fed9-0f1a-4fd8-8dca-8184ee2a541c",
+    "storedBytes" : 10152
+  }
+}

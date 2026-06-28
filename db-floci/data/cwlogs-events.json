@@ -1,0 +1,452 @@
+{
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688688660::d9228108-bc3a-46dd-98ba-2085685c6a69" : {
+    "eventId" : "d9228108-bc3a-46dd-98ba-2085685c6a69",
+    "timestamp" : 1782688688660,
+    "message" : "2026-06-28 23:18:08+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.36-1.el8 started.",
+    "ingestionTime" : 1782688688660
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914900::4a660e75-7cff-428d-b888-e072c5ef3001" : {
+    "eventId" : "4a660e75-7cff-428d-b888-e072c5ef3001",
+    "timestamp" : 1782193914900,
+    "message" : "2026-06-23 05:51:54+00:00 [Note] [Entrypoint]: Giving user admin access to schema myappdb",
+    "ingestionTime" : 1782193914900
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193892110::0c609190-6024-48f5-acec-848c60fe20d7" : {
+    "eventId" : "0c609190-6024-48f5-acec-848c60fe20d7",
+    "timestamp" : 1782193892110,
+    "message" : "2026-06-23 05:51:32+00:00 [Note] [Entrypoint]: Database files initialized",
+    "ingestionTime" : 1782193892110
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193919256::701e6854-f6b4-4420-afe4-b5dd74958963" : {
+    "eventId" : "701e6854-f6b4-4420-afe4-b5dd74958963",
+    "timestamp" : 1782193919256,
+    "message" : "2026-06-23T05:51:59.254403Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.",
+    "ingestionTime" : 1782193919256
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193857104::c3d5a56d-e80e-460a-b8bd-b48ba4b6d539" : {
+    "eventId" : "c3d5a56d-e80e-460a-b8bd-b48ba4b6d539",
+    "timestamp" : 1782193857104,
+    "message" : "2026-06-23T05:50:57.099454Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.",
+    "ingestionTime" : 1782193857105
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688692431::8a33fde5-bef5-4247-b3bb-f985cf7d8a22" : {
+    "eventId" : "8a33fde5-bef5-4247-b3bb-f985cf7d8a22",
+    "timestamp" : 1782688692431,
+    "message" : "2026-06-28T23:18:12.428127Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.",
+    "ingestionTime" : 1782688692431
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193856829::840c521e-b796-4aec-ac35-5ee8086000df" : {
+    "eventId" : "840c521e-b796-4aec-ac35-5ee8086000df",
+    "timestamp" : 1782193856829,
+    "message" : "2026-06-23 05:50:56+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'",
+    "ingestionTime" : 1782193856830
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193857117::b8defdc8-b7dd-436d-aa71-df1e6208f59f" : {
+    "eventId" : "b8defdc8-b7dd-436d-aa71-df1e6208f59f",
+    "timestamp" : 1782193857117,
+    "message" : "2026-06-23T05:50:57.112109Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.",
+    "ingestionTime" : 1782193857117
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688690526::8b9e4ce7-a51a-4188-8fba-fc46a830017a" : {
+    "eventId" : "8b9e4ce7-a51a-4188-8fba-fc46a830017a",
+    "timestamp" : 1782688690526,
+    "message" : "2026-06-28T23:18:10.510821Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.",
+    "ingestionTime" : 1782688690526
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688692429::f5594be1-4ffb-401f-b825-227af8174022" : {
+    "eventId" : "f5594be1-4ffb-401f-b825-227af8174022",
+    "timestamp" : 1782688692429,
+    "message" : "2026-06-28T23:18:12.428012Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.",
+    "ingestionTime" : 1782688692429
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914251::d28ed0a1-f8b5-45d9-a18e-6806fe8839d6" : {
+    "eventId" : "d28ed0a1-f8b5-45d9-a18e-6806fe8839d6",
+    "timestamp" : 1782193914251,
+    "message" : "2026-06-23T05:51:54.232134Z 9 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193914251
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688692446::ae4a4db7-d4c5-4c40-90a5-cc7b51822b7b" : {
+    "eventId" : "ae4a4db7-d4c5-4c40-90a5-cc7b51822b7b",
+    "timestamp" : 1782688692446,
+    "message" : "2026-06-28T23:18:12.444684Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.",
+    "ingestionTime" : 1782688692446
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193856310::e3ad9a2d-8708-4205-aa6f-48910b3a5010" : {
+    "eventId" : "e3ad9a2d-8708-4205-aa6f-48910b3a5010",
+    "timestamp" : 1782193856310,
+    "message" : "2026-06-23 05:50:56+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.36-1.el8 started.",
+    "ingestionTime" : 1782193856310
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193918444::615f9dce-0960-41ac-8da7-c0d57a995030" : {
+    "eventId" : "615f9dce-0960-41ac-8da7-c0d57a995030",
+    "timestamp" : 1782193918444,
+    "message" : "2026-06-23T05:51:58.440811Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.",
+    "ingestionTime" : 1782193918444
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193912571::ee79f3b3-17a8-4df5-a05c-d65b24210153" : {
+    "eventId" : "ee79f3b3-17a8-4df5-a05c-d65b24210153",
+    "timestamp" : 1782193912571,
+    "message" : "Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.",
+    "ingestionTime" : 1782193912571
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914609::22b78d83-1471-48fe-860a-57bed79b9e6b" : {
+    "eventId" : "22b78d83-1471-48fe-860a-57bed79b9e6b",
+    "timestamp" : 1782193914609,
+    "message" : "2026-06-23 05:51:54+00:00 [Note] [Entrypoint]: Creating database myappdb",
+    "ingestionTime" : 1782193914609
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688690529::47426027-0aa6-4331-b091-ef4bc8607254" : {
+    "eventId" : "47426027-0aa6-4331-b091-ef4bc8607254",
+    "timestamp" : 1782688690529,
+    "message" : "2026-06-28T23:18:10.510844Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.36) starting as process 1",
+    "ingestionTime" : 1782688690529
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895235::8924d858-2bdb-4f38-b405-f42d71c12dee" : {
+    "eventId" : "8924d858-2bdb-4f38-b405-f42d71c12dee",
+    "timestamp" : 1782193895235,
+    "message" : "2026-06-23T05:51:35.234226Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.",
+    "ingestionTime" : 1782193895235
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688692491::9568c31f-56ed-4c7f-9d19-5785a22d6f56" : {
+    "eventId" : "9568c31f-56ed-4c7f-9d19-5785a22d6f56",
+    "timestamp" : 1782688692491,
+    "message" : "2026-06-28T23:18:12.490091Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock",
+    "ingestionTime" : 1782688692491
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193892642::c37112f1-7927-4e39-b2a8-1a39f31f9213" : {
+    "eventId" : "c37112f1-7927-4e39-b2a8-1a39f31f9213",
+    "timestamp" : 1782193892642,
+    "message" : "2026-06-23T05:51:32.530196Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.",
+    "ingestionTime" : 1782193892642
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193915197::5e5805bc-9702-4fec-b9f2-386a859e4685" : {
+    "eventId" : "5e5805bc-9702-4fec-b9f2-386a859e4685",
+    "timestamp" : 1782193915197,
+    "message" : "2026-06-23T05:51:55.173126Z 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.36).",
+    "ingestionTime" : 1782193915197
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193918194::c9c15843-4e2c-43cd-af67-7b4667f0691a" : {
+    "eventId" : "c9c15843-4e2c-43cd-af67-7b4667f0691a",
+    "timestamp" : 1782193918194,
+    "message" : "2026-06-23 05:51:58+00:00 [Note] [Entrypoint]: Temporary server stopped",
+    "ingestionTime" : 1782193918194
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193915015::be92b97a-0449-4e89-9578-ce961a80f9bb" : {
+    "eventId" : "be92b97a-0449-4e89-9578-ce961a80f9bb",
+    "timestamp" : 1782193915015,
+    "message" : "2026-06-23 05:51:55+00:00 [Note] [Entrypoint]: Stopping temporary server",
+    "ingestionTime" : 1782193915015
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688690524::c2d25b20-73c6-4406-8bcf-5831d08f9657" : {
+    "eventId" : "c2d25b20-73c6-4406-8bcf-5831d08f9657",
+    "timestamp" : 1782688690524,
+    "message" : "2026-06-28T23:18:10.494994Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.",
+    "ingestionTime" : 1782688690525
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193913960::c8c09970-950f-4d38-8ca1-4ceeafb7d660" : {
+    "eventId" : "c8c09970-950f-4d38-8ca1-4ceeafb7d660",
+    "timestamp" : 1782193913960,
+    "message" : "2026-06-23T05:51:53.958289Z 9 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193913960
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193919862::598f0898-5700-48f4-8782-1310587c2f53" : {
+    "eventId" : "598f0898-5700-48f4-8782-1310587c2f53",
+    "timestamp" : 1782193919862,
+    "message" : "2026-06-23T05:51:59.861003Z 9 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193919862
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914828::df0891f2-41ae-4f73-aade-1c64634f11fa" : {
+    "eventId" : "df0891f2-41ae-4f73-aade-1c64634f11fa",
+    "timestamp" : 1782193914828,
+    "message" : "2026-06-23T05:51:54.827036Z 11 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193914828
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193898304::17f8d744-4148-4a25-a31b-e501232ab99b" : {
+    "eventId" : "17f8d744-4148-4a25-a31b-e501232ab99b",
+    "timestamp" : 1782193898304,
+    "message" : "Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.",
+    "ingestionTime" : 1782193898304
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193913962::5871a500-f86b-44be-9640-1b3687760627" : {
+    "eventId" : "5871a500-f86b-44be-9640-1b3687760627",
+    "timestamp" : 1782193913962,
+    "message" : "2026-06-23T05:51:53.962018Z 9 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193913962
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914781::4b71f13a-4950-4f79-b081-dfe8a5d18033" : {
+    "eventId" : "4b71f13a-4950-4f79-b081-dfe8a5d18033",
+    "timestamp" : 1782193914781,
+    "message" : "2026-06-23 05:51:54+00:00 [Note] [Entrypoint]: Creating user admin",
+    "ingestionTime" : 1782193914783
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193857080::e16d1ba7-66fc-4c45-90e2-4fa60f143fb4" : {
+    "eventId" : "e16d1ba7-66fc-4c45-90e2-4fa60f143fb4",
+    "timestamp" : 1782193857080,
+    "message" : "2026-06-23 05:50:57+00:00 [Note] [Entrypoint]: Initializing database files",
+    "ingestionTime" : 1782193857080
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193912724::06922298-8d98-42e4-a707-9acd0d634e63" : {
+    "eventId" : "06922298-8d98-42e4-a707-9acd0d634e63",
+    "timestamp" : 1782193912724,
+    "message" : "Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.",
+    "ingestionTime" : 1782193912725
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193915157::0aef2475-23b0-4568-9604-5a101eb3a8bc" : {
+    "eventId" : "0aef2475-23b0-4568-9604-5a101eb3a8bc",
+    "timestamp" : 1782193915157,
+    "message" : "2026-06-23T05:51:55.156797Z 13 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193915158
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193857106::dedda69f-0306-4ff3-9fef-330e19f5dc59" : {
+    "eventId" : "dedda69f-0306-4ff3-9fef-330e19f5dc59",
+    "timestamp" : 1782193857106,
+    "message" : "2026-06-23T05:50:57.099470Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.36) initializing of server in progress as process 80",
+    "ingestionTime" : 1782193857106
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193892719::d5d0c9c1-b6b9-4813-817a-8ae25f2c9c00" : {
+    "eventId" : "d5d0c9c1-b6b9-4813-817a-8ae25f2c9c00",
+    "timestamp" : 1782193892719,
+    "message" : "2026-06-23T05:51:32.718351Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.",
+    "ingestionTime" : 1782193892719
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193892129::f3ec8263-2d22-474b-969b-eb546f29aaa1" : {
+    "eventId" : "f3ec8263-2d22-474b-969b-eb546f29aaa1",
+    "timestamp" : 1782193892129,
+    "message" : "2026-06-23 05:51:32+00:00 [Note] [Entrypoint]: Starting temporary server",
+    "ingestionTime" : 1782193892132
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193878352::a6a013b6-aaba-44c4-a96c-4e89f46c0827" : {
+    "eventId" : "a6a013b6-aaba-44c4-a96c-4e89f46c0827",
+    "timestamp" : 1782193878352,
+    "message" : "2026-06-23T05:51:18.347579Z 6 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193878352
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688691615::cce65755-727f-4372-b800-a67c6dd2df81" : {
+    "eventId" : "cce65755-727f-4372-b800-a67c6dd2df81",
+    "timestamp" : 1782688691615,
+    "message" : "2026-06-28T23:18:11.613925Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.",
+    "ingestionTime" : 1782688691615
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193919835::5595137d-c4a9-4519-a6b8-ba66430e3a15" : {
+    "eventId" : "5595137d-c4a9-4519-a6b8-ba66430e3a15",
+    "timestamp" : 1782193919835,
+    "message" : "2026-06-23T05:51:59.833247Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193919835
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193892667::9bbbbd5d-c663-4799-8cac-5c54ec3b7de1" : {
+    "eventId" : "9bbbbd5d-c663-4799-8cac-5c54ec3b7de1",
+    "timestamp" : 1782193892667,
+    "message" : "2026-06-23T05:51:32.533815Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.36) starting as process 124",
+    "ingestionTime" : 1782193892667
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193857102::597f128b-a4cc-4ecf-b4bd-aea4e9202dc6" : {
+    "eventId" : "597f128b-a4cc-4ecf-b4bd-aea4e9202dc6",
+    "timestamp" : 1782193857102,
+    "message" : "2026-06-23T05:50:57.099329Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.",
+    "ingestionTime" : 1782193857102
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895562::18a845ba-6a9b-417a-beac-6a845ff50a50" : {
+    "eventId" : "18a845ba-6a9b-417a-beac-6a845ff50a50",
+    "timestamp" : 1782193895562,
+    "message" : "'/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'",
+    "ingestionTime" : 1782193895562
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688688966::13a23ea6-6b3b-409a-8e63-2e4108d965f1" : {
+    "eventId" : "13a23ea6-6b3b-409a-8e63-2e4108d965f1",
+    "timestamp" : 1782688688966,
+    "message" : "'/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'",
+    "ingestionTime" : 1782688688966
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193898272::7e1415fb-bd45-4da8-a80c-9091560d8421" : {
+    "eventId" : "7e1415fb-bd45-4da8-a80c-9091560d8421",
+    "timestamp" : 1782193898272,
+    "message" : "Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.",
+    "ingestionTime" : 1782193898272
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193918881::598adc4f-1be3-43e8-b405-32127e22c43c" : {
+    "eventId" : "598adc4f-1be3-43e8-b405-32127e22c43c",
+    "timestamp" : 1782193918881,
+    "message" : "2026-06-23T05:51:58.879531Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.",
+    "ingestionTime" : 1782193918881
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688690565::27e78167-f77e-451b-831d-6caaae2b02c4" : {
+    "eventId" : "27e78167-f77e-451b-831d-6caaae2b02c4",
+    "timestamp" : 1782688690565,
+    "message" : "2026-06-28T23:18:10.563442Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.",
+    "ingestionTime" : 1782688690565
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895429::01fc55c0-b5d8-4401-b0e5-22f8ab9c6e27" : {
+    "eventId" : "01fc55c0-b5d8-4401-b0e5-22f8ab9c6e27",
+    "timestamp" : 1782193895429,
+    "message" : "2026-06-23T05:51:35.428840Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock",
+    "ingestionTime" : 1782193895429
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193912649::718c491d-8cd0-4eee-8e6f-0c6a212eef37" : {
+    "eventId" : "718c491d-8cd0-4eee-8e6f-0c6a212eef37",
+    "timestamp" : 1782193912649,
+    "message" : "Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.",
+    "ingestionTime" : 1782193912649
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895430::55df17a6-bc42-4692-b165-5419dc6ec923" : {
+    "eventId" : "55df17a6-bc42-4692-b165-5419dc6ec923",
+    "timestamp" : 1782193895430,
+    "message" : "2026-06-23T05:51:35.429325Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.",
+    "ingestionTime" : 1782193895430
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193918198::efe9fc98-6994-47c3-9345-e343f4ee0b56" : {
+    "eventId" : "efe9fc98-6994-47c3-9345-e343f4ee0b56",
+    "timestamp" : 1782193918198,
+    "message" : "2026-06-23 05:51:58+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.",
+    "ingestionTime" : 1782193918198
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914695::7cb5d48a-7dcb-46ff-8e62-8c7a93aaebdc" : {
+    "eventId" : "7cb5d48a-7dcb-46ff-8e62-8c7a93aaebdc",
+    "timestamp" : 1782193914695,
+    "message" : "2026-06-23T05:51:54.674083Z 10 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193914695
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193919257::fbe69dc7-9b02-4ce1-859e-f1ee1a76028c" : {
+    "eventId" : "fbe69dc7-9b02-4ce1-859e-f1ee1a76028c",
+    "timestamp" : 1782193919257,
+    "message" : "2026-06-23T05:51:59.254491Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.",
+    "ingestionTime" : 1782193919257
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193919266::a388dc6f-2cb4-486b-a3c8-b8bedb76b4a4" : {
+    "eventId" : "a388dc6f-2cb4-486b-a3c8-b8bedb76b4a4",
+    "timestamp" : 1782193919266,
+    "message" : "2026-06-23T05:51:59.262994Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.",
+    "ingestionTime" : 1782193919267
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688687519::2336d011-d61a-4105-a026-e5d9e63972b7" : {
+    "eventId" : "2336d011-d61a-4105-a026-e5d9e63972b7",
+    "timestamp" : 1782688687519,
+    "message" : "2026-06-28 23:18:07+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.36-1.el8 started.",
+    "ingestionTime" : 1782688687519
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914933::8ce43640-32a7-4a89-b92a-c3f56ee4c533" : {
+    "eventId" : "8ce43640-32a7-4a89-b92a-c3f56ee4c533",
+    "timestamp" : 1782193914933,
+    "message" : "2026-06-23T05:51:54.932052Z 12 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193914933
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193914839::f17c358e-a994-4a6e-a4fe-6183be54ecb6" : {
+    "eventId" : "f17c358e-a994-4a6e-a4fe-6183be54ecb6",
+    "timestamp" : 1782193914839,
+    "message" : "2026-06-23T05:51:54.829676Z 11 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193914839
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895204::d1f1ccfd-c1fa-4ff7-a207-80389d643ef0" : {
+    "eventId" : "d1f1ccfd-c1fa-4ff7-a207-80389d643ef0",
+    "timestamp" : 1782193895204,
+    "message" : "2026-06-23T05:51:35.201655Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.",
+    "ingestionTime" : 1782193895204
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895476::80eeafba-7ccc-43b9-a87f-e81a43667d5e" : {
+    "eventId" : "80eeafba-7ccc-43b9-a87f-e81a43667d5e",
+    "timestamp" : 1782193895476,
+    "message" : "2026-06-23 05:51:35+00:00 [Note] [Entrypoint]: Temporary server started.",
+    "ingestionTime" : 1782193895476
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193918446::9b95dfc6-2161-47dc-82ed-70d5fd0cc285" : {
+    "eventId" : "9b95dfc6-2161-47dc-82ed-70d5fd0cc285",
+    "timestamp" : 1782193918446,
+    "message" : "2026-06-23T05:51:58.441964Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.",
+    "ingestionTime" : 1782193918446
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895899::cc81f74b-011e-4e17-b725-def02cecafe9" : {
+    "eventId" : "cc81f74b-011e-4e17-b725-def02cecafe9",
+    "timestamp" : 1782193895899,
+    "message" : "2026-06-23T05:51:35.878981Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'",
+    "ingestionTime" : 1782193895899
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193919300::b0ca5d2a-8170-487f-b6fe-af415f37b89f" : {
+    "eventId" : "b0ca5d2a-8170-487f-b6fe-af415f37b89f",
+    "timestamp" : 1782193919300,
+    "message" : "2026-06-23T05:51:59.298761Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock",
+    "ingestionTime" : 1782193919300
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688692493::c8c765bb-af0b-4434-8d27-ec365b785ea4" : {
+    "eventId" : "c8c765bb-af0b-4434-8d27-ec365b785ea4",
+    "timestamp" : 1782688692493,
+    "message" : "2026-06-28T23:18:12.490396Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.",
+    "ingestionTime" : 1782688692493
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193917247::477047bf-61fb-476c-8a6b-d675babfe0a7" : {
+    "eventId" : "477047bf-61fb-476c-8a6b-d675babfe0a7",
+    "timestamp" : 1782193917247,
+    "message" : "2026-06-23T05:51:57.244120Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.36)  MySQL Community Server - GPL.",
+    "ingestionTime" : 1782193917247
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/28/c443ecc2::001782688688634::3ac687e2-ebf3-4ccc-a569-700bebdab8a1" : {
+    "eventId" : "3ac687e2-ebf3-4ccc-a569-700bebdab8a1",
+    "timestamp" : 1782688688634,
+    "message" : "2026-06-28 23:18:08+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'",
+    "ingestionTime" : 1782688688634
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193918463::66d47779-ca9e-4aac-888c-b85578dd8e0b" : {
+    "eventId" : "66d47779-ca9e-4aac-888c-b85578dd8e0b",
+    "timestamp" : 1782193918463,
+    "message" : "2026-06-23T05:51:58.441987Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.36) starting as process 1",
+    "ingestionTime" : 1782193918463
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193993023::3cd964fe-6a28-4495-8faa-18717c45923d" : {
+    "eventId" : "3cd964fe-6a28-4495-8faa-18717c45923d",
+    "timestamp" : 1782193993023,
+    "message" : "2026-06-23T05:53:13.016772Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.36).",
+    "ingestionTime" : 1782193993023
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193894012::e242a227-23d1-4a11-b146-c2997e524886" : {
+    "eventId" : "e242a227-23d1-4a11-b146-c2997e524886",
+    "timestamp" : 1782193894012,
+    "message" : "2026-06-23T05:51:34.010592Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.",
+    "ingestionTime" : 1782193894012
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193898279::81ff1099-496c-40d3-ba8a-116f5edd7f57" : {
+    "eventId" : "81ff1099-496c-40d3-ba8a-116f5edd7f57",
+    "timestamp" : 1782193898279,
+    "message" : "Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.",
+    "ingestionTime" : 1782193898280
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193856848::05cb703a-ae58-4f34-b311-d141c1fa4d6e" : {
+    "eventId" : "05cb703a-ae58-4f34-b311-d141c1fa4d6e",
+    "timestamp" : 1782193856848,
+    "message" : "2026-06-23 05:50:56+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.36-1.el8 started.",
+    "ingestionTime" : 1782193856848
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193919301::d125516c-80ee-4270-8700-0f7dded69aea" : {
+    "eventId" : "d125516c-80ee-4270-8700-0f7dded69aea",
+    "timestamp" : 1782193919301,
+    "message" : "2026-06-23T05:51:59.298847Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.36'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.",
+    "ingestionTime" : 1782193919301
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193858701::359a2bf7-7bb4-4d71-967d-948ebabf3e8b" : {
+    "eventId" : "359a2bf7-7bb4-4d71-967d-948ebabf3e8b",
+    "timestamp" : 1782193858701,
+    "message" : "2026-06-23T05:50:58.698817Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.",
+    "ingestionTime" : 1782193858701
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193876637::ed4c233b-e6de-43d3-a2c9-ba572f7e4048" : {
+    "eventId" : "ed4c233b-e6de-43d3-a2c9-ba572f7e4048",
+    "timestamp" : 1782193876637,
+    "message" : "2026-06-23T05:51:16.636067Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.",
+    "ingestionTime" : 1782193876637
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193892644::c69684aa-4053-49d6-8fa7-37720643acb5" : {
+    "eventId" : "c69684aa-4053-49d6-8fa7-37720643acb5",
+    "timestamp" : 1782193892644,
+    "message" : "2026-06-23T05:51:32.533776Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.",
+    "ingestionTime" : 1782193892644
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193895202::b36d1d94-280d-4f93-b1fe-80898cabadee" : {
+    "eventId" : "b36d1d94-280d-4f93-b1fe-80898cabadee",
+    "timestamp" : 1782193895202,
+    "message" : "2026-06-23T05:51:35.201624Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.",
+    "ingestionTime" : 1782193895202
+  },
+  "000000000000/us-east-1::/aws/rds/instance/mydb/error::2026/06/23/8d2f9a6b::001782193918468::a9615577-a96c-4ae2-beb1-7e751b2a6dea" : {
+    "eventId" : "a9615577-a96c-4ae2-beb1-7e751b2a6dea",
+    "timestamp" : 1782193918468,
+    "message" : "2026-06-23T05:51:58.466822Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.",
+    "ingestionTime" : 1782193918468
+  }
+}

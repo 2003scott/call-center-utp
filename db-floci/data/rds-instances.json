@@ -1,0 +1,34 @@
+{
+  "000000000000/mydb" : {
+    "dbInstanceIdentifier" : "mydb",
+    "engine" : "MYSQL",
+    "engineVersion" : "8.0.36",
+    "masterUsername" : "admin",
+    "masterPassword" : "password123",
+    "dbName" : "myappdb",
+    "dbInstanceClass" : "db.t3.micro",
+    "allocatedStorage" : 20,
+    "status" : "AVAILABLE",
+    "endpoint" : {
+      "address" : "172.20.0.2",
+      "port" : 7002
+    },
+    "iamDatabaseAuthenticationEnabled" : false,
+    "parameterGroupName" : null,
+    "dbSubnetGroupName" : null,
+    "dbClusterIdentifier" : null,
+    "dbiResourceId" : "db-B3C75C0E36EB4DFAA5C16BBB",
+    "dbInstanceArn" : "arn:aws:rds:us-east-1:000000000000:db:mydb",
+    "masterUserSecretArn" : null,
+    "masterUserSecretStatus" : null,
+    "masterUserSecretKmsKeyId" : null,
+    "tags" : { },
+    "createdAt" : "2026-06-23T05:50:56.309024555Z",
+    "proxyPort" : 7002,
+    "dockerVolumeName" : "floci-rds-5eeda0",
+    "volumeId" : "5eeda0",
+    "containerId" : "8d2f9a6bdeaae310a6bb0b79ca395d67df92f3cefb5f086f9ed177e8104cefce",
+    "containerHost" : "172.20.0.4",
+    "containerPort" : 3306
+  }
+}

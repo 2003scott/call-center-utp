@@ -1,0 +1,8 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de entorno (si llegas a usar contraseñas reales aquí)
+.env
+
+# Carpeta de código compilado
+dist/
