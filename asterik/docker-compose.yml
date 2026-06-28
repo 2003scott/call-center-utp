@@ -1,5 +1,5 @@
 services:
-  # 1. Tu código en TypeScript (El Cerebro)
+  # 1. Tu código en TypeScript (orquestación, métricas y control ARI)
   orquestador:
     build: .
     ports:
@@ -10,16 +10,36 @@ services:
     environment:
       - NODE_ENV=development
       - PORT=3000
+      - ASTERISK_ARI_URL=http://asterisk_pbx:8088
     depends_on:
       - asterisk_pbx
 
-  # 2. El servidor local de telefonía (El Motor)
+  # 2. FreePBX como capa de administración del PBX y Asterisk debajo de él
   asterisk_pbx:
-    image: andrius/asterisk:latest 
+    image: brainbeanapps/freepbx:latest
+    hostname: asterisk-pbx
     ports:
-      - "8088:8088" # Exponemos el puerto de la API
-      - "5060:5060/udp" # Puerto para llamadas SIP
+      - "${FREEPBX_WEB_PORT:-8080}:80"
+      - "${FREEPBX_WEB_SSL_PORT:-8443}:443"
+      - "${ASTERISK_ARI_PORT:-8088}:8088"
+      - "${ASTERISK_SIP_PORT:-5060}:5060/udp"
+      - "${ASTERISK_SIP_TLS_PORT:-5061}:5061/udp"
+      - "${ASTERISK_RTP_START:-10000}-${ASTERISK_RTP_END:-20000}:10000-20000/udp"
     volumes:
-      - ./asterisk_config/http.conf:/etc/asterisk/http.conf
-      - ./asterisk_config/ari.conf:/etc/asterisk/ari.conf
-      - ./asterisk_config/pjsip.conf:/etc/asterisk/pjsip.conf # <-- Nueva línea
+      - freepbx_etc:/etc/asterisk
+      - freepbx_varlib:/var/lib/asterisk
+      - freepbx_spool:/var/spool/asterisk
+      - freepbx_log:/var/log/asterisk
+      - freepbx_www:/var/www/html
+      - freepbx_data:/data
+    environment:
+      - TZ=America/Mexico_City
+    depends_on: []
+
+volumes:
+  freepbx_etc:
+  freepbx_varlib:
+  freepbx_spool:
+  freepbx_log:
+  freepbx_www:
+  freepbx_data:
