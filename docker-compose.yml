@@ -1,0 +1,100 @@
+services:
+  orquestador:
+    build:
+      context: ./asterik
+      dockerfile: Dockerfile
+    ports:
+      - "${ASTERIK_HOST_PORT:-3001}:3000"
+    volumes:
+      - ./asterik:/app
+      - /app/node_modules
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      ASTERISK_ARI_URL: http://asterisk_pbx:8088
+      ASTERISK_ARI_USER: ${ASTERISK_ARI_USER:-orquestador_user}
+      ASTERISK_ARI_PASSWORD: ${ASTERISK_ARI_PASSWORD:-clave_secreta_123}
+      ASTERISK_APP_NAME: ${ASTERISK_APP_NAME:-orquestador_app}
+    depends_on:
+      - asterisk_pbx
+    networks:
+      - callcenter_net
+
+  asterisk_pbx:
+    image: brainbeanapps/freepbx:latest
+    hostname: asterisk-pbx
+    ports:
+      - "${FREEPBX_WEB_PORT:-8080}:80"
+      - "${FREEPBX_WEB_SSL_PORT:-8443}:443"
+      - "${ASTERISK_ARI_PORT:-8088}:8088"
+      - "${ASTERISK_SIP_PORT:-5060}:5060/udp"
+      - "${ASTERISK_SIP_TLS_PORT:-5061}:5061/udp"
+      - "${ASTERISK_RTP_START:-10000}-${ASTERISK_RTP_END:-20000}:10000-20000/udp"
+    volumes:
+      - freepbx_etc:/etc/asterisk
+      - freepbx_varlib:/var/lib/asterisk
+      - freepbx_spool:/var/spool/asterisk
+      - freepbx_log:/var/log/asterisk
+      - freepbx_www:/var/www/html
+      - freepbx_data:/data
+    environment:
+      TZ: America/Mexico_City
+    networks:
+      - callcenter_net
+
+  floci:
+    image: floci/floci:latest
+    ports:
+      - "4566:4566"
+      - "7001-7099:7001-7099"
+    environment:
+      FLOCI_STORAGE_MODE: persistent
+      FLOCI_STORAGE_PERSISTENT_PATH: /app/data
+      FLOCI_DEFAULT_REGION: us-east-1
+      FLOCI_BASE_URL: http://floci:4566
+      FLOCI_SERVICES_RDS_PROXY_BASE_PORT: "7001"
+      FLOCI_SERVICES_DOCKER_NETWORK: callcenter_net
+    volumes:
+      - ./db-floci/data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4566/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - callcenter_net
+
+  init-db:
+    image: ubuntu:latest
+    depends_on:
+      floci:
+        condition: service_healthy
+    volumes:
+      - ./db-floci/init-all.sh:/init-all.sh:ro
+      - ./db-floci/init-db.sql:/init-db.sql:ro
+    environment:
+      AWS_ENDPOINT_URL: http://floci:4566
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_ACCESS_KEY_ID: test
+      AWS_SECRET_ACCESS_KEY: test
+    entrypoint: ["/bin/bash", "-c"]
+    command: |
+      apt-get update && apt-get install -y awscli default-mysql-client curl
+      bash /init-all.sh
+    networks:
+      - callcenter_net
+
+volumes:
+  freepbx_etc:
+  freepbx_varlib:
+  freepbx_spool:
+  freepbx_log:
+  freepbx_www:
+  freepbx_data:
+
+networks:
+  callcenter_net:
+    name: callcenter_net
+    driver: bridge
